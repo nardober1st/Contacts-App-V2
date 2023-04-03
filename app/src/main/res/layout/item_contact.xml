@@ -9,10 +9,10 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="4dp"
+        android:layout_margin="8dp"
         android:elevation="4dp"
-        app:cardBackgroundColor="#DBFDFB"
-        app:cardCornerRadius="10dp">
+        app:cardBackgroundColor="#F2FFFF"
+        app:cardCornerRadius="60dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -41,7 +41,7 @@
                 app:layout_constraintTop_toTopOf="@+id/view_background_icon" />
 
             <TextView
-                android:id="@+id/text_view_contact_name"
+                android:id="@+id/text_view_contact"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
