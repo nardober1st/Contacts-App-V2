@@ -1,3 +1,10 @@
 package com.bernardooechsler.contactsv2
 
-data class Contact(val name: String)
+import java.io.Serializable
+
+data class Contact(
+    val id: Int,
+    var contactName: String,
+    var contactPhone: String
+) : Serializable
+
